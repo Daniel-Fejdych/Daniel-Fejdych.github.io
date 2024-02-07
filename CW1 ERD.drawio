@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-07T11:42:42.980Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="9mG2-xoT72VGuxdSZGZY" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-07T11:49:04.351Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="iP4_PymUxkrjXkoYQz9J" version="23.1.1" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1900" dy="1703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -499,6 +499,9 @@
           <mxGeometry x="420" y="70" width="300" height="30" as="geometry">
             <mxRectangle width="300" height="30" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="1k9v6xgg7z2QlEdVDeC4-27" value="Add a name and brand field" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="30" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
