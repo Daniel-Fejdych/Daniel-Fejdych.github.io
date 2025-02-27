@@ -24,7 +24,7 @@ function showUser(str) {
 			document.getElementById("hint").innerHTML=this.responseText;
 		}
 	}
-	xmlhttp.open("GET","test.php?q="+str,false); //filename here
+	xmlhttp.open("GET","test.php?q="+str,true); //filename here
 	xmlhttp.send();
 }
 showUser("hello");
