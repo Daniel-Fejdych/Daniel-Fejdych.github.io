@@ -1,7 +1,9 @@
 <?php
 
+$q = intval($_GET['q']);
+
 // Database connection details
-$host = "localhost";
+$host = "132.145.18.222";
 $username = "df2017";
 $password = "wnd4VKSANY3";
 $database = "df2017";
