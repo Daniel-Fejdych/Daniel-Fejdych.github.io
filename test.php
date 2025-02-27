@@ -17,6 +17,10 @@ if ($conn->connect_error) {
 }
 echo "Connected successfully";
 
+$result = $mysqli->query("SELECT 'fname' AS _name FROM Users");
+$row = $result->fetch_assoc();
+echo $row['_name'];
+
 //include 'connectdb.php'; // Uncomment later
 /*
 mysqli_select_db($conn,"df2017");
