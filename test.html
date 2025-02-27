@@ -1,0 +1,35 @@
+<html>
+<head>
+</head>
+<body>
+
+
+<p id="txtHint"></p>
+<p id="hint"></p>
+
+<script>
+function showUser(str) {
+	if (str=="") {
+		document.getElementById("txtHint").innerHTML="";
+		return;
+	}
+	if (window.XMLHttpRequest) { // detects whether the browser has XMLHttpRequest functionality
+	// code for modern browsers
+		xmlhttp=new XMLHttpRequest(); // creates an XMLHttpRequest object
+	} else { // code for old browsers
+		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+	}
+	xmlhttp.onreadystatechange=function() { // onreadystatechange defines the function to be called when the readyState property changes
+		if (this.readyState==4 && this.status==200) {
+			document.getElementById("hint").innerHTML=this.responseText;
+		}
+	}
+	xmlhttp.open("GET","test.php?q="+str,false); //filename here
+	xmlhttp.send();
+}
+showUser("hello");
+</script>
+
+
+</body>
+</html>
