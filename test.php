@@ -33,8 +33,8 @@ error_reporting(E_ERROR | E_PARSE);
 
 	\
 while($row = mysqli_fetch_array($result)) {
-	echo $row['country_name'] . "<br>";
-	echo $row['country_capital'] . "<br>";
+	echo $row['country_name'] . "";
+	echo $row['country_capital'] . "";
 }
 */
 mysqli_close($conn);
